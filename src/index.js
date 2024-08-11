@@ -8,6 +8,8 @@ import rootReducer from "./reducer";
 import {Toaster} from "react-hot-toast";
 import {configureStore} from "@reduxjs/toolkit"
 
+
+
 const store = configureStore({
   reducer : rootReducer,
 })
